@@ -1,3 +1,5 @@
+all: examheap 
+
 examheap: examheap.cpp heap.cpp
 	g++ -c examheap.cpp 
 	g++ -c heap.cpp 
