@@ -13,6 +13,7 @@ Heap::Heap(std::vector<int>::iterator start, std::vector<int>::iterator end){
     start++;
   }
   int n = vdata.size(); 
+  //thank you lecture notes 
   for (int i = n/2 - 1; i >= 0; i--){
     bubbleDown(i); 
   }
