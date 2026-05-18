@@ -17,6 +17,8 @@ class Heap{
     void pop(); // delete the min element
     int top();
     bool empty();
+    void bubbleUp(int i);
+    void bubbleDown(int i);
 
  private:
     std::vector<int> vdata; //store the binary heap tree as a dynamic array
